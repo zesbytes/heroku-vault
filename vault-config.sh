@@ -1,6 +1,6 @@
 #!/bin/sh
 cat << EOF
-disable_mlock: $DISABLE_MLOCK
+disable_mlock = $DISABLE_MLOCK
 
 storage "postgresql" {
   connection_url = "$POSTGRESQL_CONNECTION_URL"
